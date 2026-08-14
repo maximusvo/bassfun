@@ -25,7 +25,6 @@
     oder kleinere Feiern. Schnell aufgebaut, einfach bedient.
   equipment:
     - 2x RCF Aktivlautsprecher (Topteile)
-    - 1x Aktivsubwoofer
     - Mischpult inkl. Kabel & Stative
   highlight: false
 
@@ -40,9 +39,8 @@
     Hochzeiten, Vereinsfeiern und Clubabende.
   equipment:
     - 2x RCF Aktivlautsprecher (Topteile)
-    - 2x RCF Aktivsubwoofer
-    - Digitalmischpult inkl. Kabel & Stative
-    - 2x Funkmikrofon
+    - 1x RCF Aktivsubwoofer
+    - Mischpult inkl. Kabel & Stative
   highlight: true
 
 - id: festival
@@ -55,11 +53,9 @@
     Volle Beschallungsanlage für Open-Airs, größere Hochzeiten und
     Firmenevents – inklusive Bühnenmonitoring und DJ-Equipment.
   equipment:
-    - 4x RCF Aktivlautsprecher (Topteile)
-    - 4x RCF Aktivsubwoofer
-    - Digitalmischpult inkl. Kabel & Stative
-    - 2x Bühnenmonitor
-    - 2x Funkmikrofon
+    - 2x RCF Aktivlautsprecher (Topteile)
+    - 2x RCF Aktivsubwoofer
+    - Mischpult inkl. Kabel & Stative
   highlight: false
 
 - id: dj-service

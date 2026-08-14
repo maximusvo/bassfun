@@ -1,0 +1,28 @@
+---
+permalink: /llms.txt
+---
+# Bassfun
+
+> PA-Lautsprecherverleih (Marke RCF) für Partys, Hochzeiten, Vereinsfeiern und Firmenevents in Brandenburg, Deutschland.
+
+Bassfun vermietet hochwertige RCF-Aktivlautsprecher und Subwoofer für
+Veranstaltungen in Brandenburg. Kund:innen wählen eines der Leihpakete
+passend zur Gästezahl und fragen es unverbindlich per E-Mail an; ein
+Vertrag oder eine Registrierung ist dafür nicht nötig.
+
+## Seiten
+
+- [Start]({{ site.url }}/): Überblick über das Angebot
+- [Leihpakete]({{ site.url }}/leihen/): Alle Verleihpakete mit Ausstattung, Preis und Gästezahl
+- [Anfrage]({{ site.url }}/anfrage/): Formular zur unverbindlichen Anfrage eines Pakets per E-Mail
+- [Über uns]({{ site.url }}/about/): Informationen zum Anbieter und Kontakt
+
+## Leihpakete
+{% for package in site.data.packages %}
+- {{ package.name }} ({{ package.guests }}, {{ package.price }}): {{ package.description | strip_newlines | strip }}
+{%- endfor %}
+
+## Kontakt
+
+- E-Mail: {{ site.email }}
+- Einsatzgebiet: Brandenburg, Deutschland

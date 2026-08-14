@@ -4,6 +4,30 @@
 
 {% seo %}
 
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Bassfun",
+  "description": {{ site.description | strip_newlines | strip | jsonify }},
+  "url": "{{ site.url }}/",
+  "email": "{{ site.email }}",
+  "image": "{{ site.url }}/assets/img/social-card.jpg",
+  "areaServed": {
+    "@type": "State",
+    "name": "Brandenburg"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressRegion": "Brandenburg",
+    "addressCountry": "DE"
+  },
+  "priceRange": "€€"
+}
+</script>
+{% endif %}
+
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ '/feed.xml' | relative_url }}">
 

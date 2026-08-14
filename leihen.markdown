@@ -7,6 +7,33 @@ description: >-
   Hochwertige RCF-PA-Technik für Events in Brandenburg – Paket wählen und anfragen.
 ---
 
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "itemListElement": [
+    {% for package in site.data.packages %}
+    {
+      "@type": "Product",
+      "position": {{ forloop.index }},
+      "name": {{ package.name | jsonify }},
+      "description": {{ package.description | strip_newlines | strip | jsonify }},
+      "url": "{{ site.url }}{{ '/anfrage/' | relative_url }}?paket={{ package.id }}"
+      {% if package.price_from %},
+      "offers": {
+        "@type": "Offer",
+        "priceCurrency": "EUR",
+        "price": {{ package.price_from }},
+        "availability": "https://schema.org/InStock",
+        "url": "{{ site.url }}{{ '/anfrage/' | relative_url }}?paket={{ package.id }}"
+      }
+      {% endif %}
+    }{% unless forloop.last %},{% endunless %}
+    {% endfor %}
+  ]
+}
+</script>
+
 <section class="hero" style="padding: 90px 0 60px;">
   <div class="wrap">
     <div class="hero-content">

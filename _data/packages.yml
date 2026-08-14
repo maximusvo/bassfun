@@ -8,6 +8,8 @@
 #   tagline       kurzer Untertitel
 #   guests        Richtwert Personenanzahl
 #   price         Preis als Text (z.B. "ab 149 €")
+#   price_from    Preis als reine Zahl in Euro, für strukturierte Daten
+#                 (weglassen, wenn "auf Anfrage")
 #   description   Fließtext-Beschreibung
 #   equipment     Liste der enthaltenen Komponenten
 #   highlight     true/false – hebt das Paket optisch hervor (z.B. "Beliebt")
@@ -17,6 +19,7 @@
   tagline: "Für kleine Feiern & private Partys"
   guests: "bis 50 Gäste"
   price: "ab 89 €/Tag"
+  price_from: 89
   description: >
     Ein kompaktes PA-Set mit satten Bässen für Geburtstage, Gartenpartys
     oder kleinere Feiern. Schnell aufgebaut, einfach bedient.
@@ -31,6 +34,7 @@
   tagline: "Kraftvoller Sound für mittlere Events"
   guests: "bis 150 Gäste"
   price: "ab 179 €/Tag"
+  price_from: 179
   description: >
     Unser meistgebuchtes Paket: klarer Sound und druckvoller Bass für
     Hochzeiten, Vereinsfeiern und Clubabende.
@@ -46,6 +50,7 @@
   tagline: "Große Beschallung für große Bühnen"
   guests: "bis 400 Gäste"
   price: "ab 349 €/Tag"
+  price_from: 349
   description: >
     Volle Beschallungsanlage für Open-Airs, größere Hochzeiten und
     Firmenevents – inklusive Bühnenmonitoring und DJ-Equipment.

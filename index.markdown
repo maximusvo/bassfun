@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Start
+title: Guter Sound von und für Brandenburg
 ---
 
 <section class="hero">
@@ -122,6 +122,87 @@ title: Start
     </p>
   </div>
 </section>
+
+<section>
+  <div class="wrap">
+    <div class="section-head">
+      <span class="eyebrow">Fragen &amp; Antworten</span>
+      <h2>Gut zu wissen</h2>
+    </div>
+
+    <div class="faq-list">
+      <details class="faq-item">
+        <summary>Welche Lautsprecher verwendet ihr?</summary>
+        <p>Wir verleihen ausschließlich Profi-PA-Technik der Marke RCF – Aktivlautsprecher und Subwoofer für satten Bass und klaren Sound.</p>
+      </details>
+      <details class="faq-item">
+        <summary>In welchem Gebiet verleiht ihr?</summary>
+        <p>Wir sind in Brandenburg ansässig und beliefern Veranstaltungen in Brandenburg und Umgebung.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Wie läuft eine Anfrage ab?</summary>
+        <p>Du wählst auf der Leihen-Seite ein Paket, füllst das Anfrageformular aus und schickst die vorbereitete Mail ab. Wir melden uns anschließend mit Verfügbarkeit, Lieferung und Preis zurück.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Muss ich mich vorher registrieren?</summary>
+        <p>Nein. Die Anfrage läuft unverbindlich per E-Mail – ohne Konto, ohne Registrierung.</p>
+      </details>
+      <details class="faq-item">
+        <summary>Liefert ihr die Technik auch an?</summary>
+        <p>Ja, Lieferung und auf Wunsch auch Auf- und Abbau sind möglich. Details klären wir direkt bei deiner Anfrage.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Welche Lautsprecher verwendet ihr?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wir verleihen ausschließlich Profi-PA-Technik der Marke RCF – Aktivlautsprecher und Subwoofer für satten Bass und klaren Sound."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "In welchem Gebiet verleiht ihr?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Wir sind in Brandenburg ansässig und beliefern Veranstaltungen in Brandenburg und Umgebung."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie läuft eine Anfrage ab?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Du wählst auf der Leihen-Seite ein Paket, füllst das Anfrageformular aus und schickst die vorbereitete Mail ab. Wir melden uns anschließend mit Verfügbarkeit, Lieferung und Preis zurück."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Muss ich mich vorher registrieren?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Nein. Die Anfrage läuft unverbindlich per E-Mail – ohne Konto, ohne Registrierung."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Liefert ihr die Technik auch an?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ja, Lieferung und auf Wunsch auch Auf- und Abbau sind möglich. Details klären wir direkt bei der Anfrage."
+      }
+    }
+  ]
+}
+</script>
 
 <section class="cta-band">
   <div class="wrap">

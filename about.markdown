@@ -4,6 +4,9 @@ title: Über uns
 permalink: /about/
 eyebrow: Bassfun
 subtitle: Lautsprecherverleih aus Brandenburg – für Events mit klarem Sound und druckvollen Bässen.
+description: >-
+  Bassfun verleiht hochwertige RCF-Aktivlautsprecher und Subwoofer in
+  Brandenburg – für Partys, Hochzeiten, Vereinsfeiern und Firmenevents.
 ---
 
 Bassfun ist der Verleih für hochwertige PA-Technik in Brandenburg. Wir

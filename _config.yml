@@ -21,15 +21,31 @@
 title: Bassfun - Deine Lautsprechervermietung in Brandenburg
 email: voigt-events@posteo.de
 description: >- # this means to ignore newlines until "baseurl:"
-  Du suchst hochwertige PA-Boxen für deine Party? Wir vermieten Lautsprecher der Marke RCF in Brandenburg. Für hohen Bassdruck und guten Sound. 
+  Du suchst hochwertige PA-Boxen für deine Party? Wir vermieten Lautsprecher der Marke RCF in Brandenburg. Für hohen Bassdruck und guten Sound.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://bassfun.org" # the base hostname & protocol for your site, e.g. http://example.com
+lang: de
+
+# Social sharing (used by jekyll-seo-tag for Open Graph / Twitter Cards).
+# jekyll-seo-tag only reads `image` from a page's front matter, so a
+# front-matter default is used to apply it site-wide. Twitter Card type
+# defaults to summary_large_image automatically once an image is present.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image:
+        path: /assets/img/social-card.jpg
+        width: 1200
+        height: 630
+        alt: "Bassfun – PA-Verleih Brandenburg"
 
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.

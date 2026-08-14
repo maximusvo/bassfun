@@ -2,6 +2,9 @@
 layout: default
 title: Leihen
 permalink: /leihen/
+description: >-
+  Alle Leihpakete auf einen Blick: Starter, Club, Festival und DJ-Service.
+  Hochwertige RCF-PA-Technik für Events in Brandenburg – Paket wählen und anfragen.
 ---
 
 <section class="hero" style="padding: 90px 0 60px;">

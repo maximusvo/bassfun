@@ -2,6 +2,9 @@
 layout: default
 title: Anfrage
 permalink: /anfrage/
+description: >-
+  Frag dein Wunschpaket für den Lautsprecherverleih in Brandenburg unverbindlich
+  per Mail an – schnell und unkompliziert, ganz ohne Registrierung.
 ---
 
 <section class="hero" style="padding: 90px 0 60px;">

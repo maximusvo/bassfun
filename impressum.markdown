@@ -15,7 +15,7 @@ Am Dorfring 14<br>
 
 ## Kontakt
 
-E-Mail: [{{ site.email }}](mailto:{{ site.email }})
+E-Mail: {% include email-link.html %}
 
 ## Umsatzsteuer
 

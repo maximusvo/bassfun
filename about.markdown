@@ -23,4 +23,4 @@ und wir melden uns mit den Details zu Verfügbarkeit, Lieferung und Preis.
 ## Kontakt
 
 Fragen vorab? Schreib uns einfach eine Mail an
-[{{ site.email }}](mailto:{{ site.email }}).
+{% include email-link.html %}.

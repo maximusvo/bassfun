@@ -22,7 +22,7 @@
       <div>
         <h4>Kontakt</h4>
         <ul>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>{% include email-link.html %}</li>
         </ul>
       </div>
     </div>
@@ -34,3 +34,14 @@
     </div>
   </div>
 </footer>
+
+<script>
+  // E-Mail-Adressen sind im Quelltext nur umgekehrt hinterlegt (data-r) und
+  // werden erst hier zur Laufzeit zusammengesetzt, damit simple Scraper sie
+  // nicht direkt aus dem HTML auslesen können.
+  document.querySelectorAll('.js-email, .js-email-text').forEach(function (el) {
+    var email = el.getAttribute('data-r').split('').reverse().join('');
+    if (el.tagName === 'A') { el.href = 'mailto:' + email; }
+    el.textContent = email;
+  });
+</script>

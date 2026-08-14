@@ -58,7 +58,7 @@ description: >-
 
       <p class="form-note">
         Beim Klick öffnet sich dein Standard-E-Mail-Programm mit einer
-        vorausgefüllten Nachricht an <strong>{{ site.email }}</strong>. Wir
+        vorausgefüllten Nachricht an <strong class="js-email-text" data-r="{{ site.email | split: '' | reverse | join: '' }}">E-Mail wird geladen &hellip;</strong>. Wir
         senden dabei nichts automatisch ab – du prüfst die Mail und
         schickst sie selbst.
       </p>
@@ -73,7 +73,8 @@ description: >-
   var form = document.getElementById('anfrage-form');
   var paketSelect = document.getElementById('paket');
   var status = document.getElementById('form-status');
-  var mailTo = {{ site.email | jsonify }};
+  // E-Mail nur umgekehrt im Quelltext, erst hier zur Laufzeit zusammengesetzt
+  var mailTo = {{ site.email | split: "" | reverse | join: "" | jsonify }}.split('').reverse().join('');
 
   // Paket per Query-Parameter (?paket=id) vorauswählen, z.B. von /leihen/ aus
   var params = new URLSearchParams(window.location.search);

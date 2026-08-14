@@ -7,7 +7,7 @@ title: Guter Sound aus und für Brandenburg
   <div class="wrap">
     <div class="hero-content">
       <span class="eyebrow">PA-Verleih Brandenburg</span>
-      <h1>Sound, der<br>trägt.</h1>
+      <h1>Hochwertiger Sound<br>für jeden Anlass.</h1>
       <p class="lead">
         Wir verleihen hochwertige Aktivlautsprecher für Partys, Hochzeiten
         und Events – druckvoller Bass, klarer Sound, unkompliziert gebucht.

@@ -39,7 +39,7 @@ title: Guter Sound aus und für Brandenburg
   <div class="wrap">
     <div class="showcase-grid">
       <img
-        src="{{ '/assets/img/club-set.svg' | relative_url }}"
+        src="{{ '/assets/img/stage_img.png' | relative_url }}"
         alt="Zwei PA-Stacks aus je einem RCF SUB 8003-AS MK3 Subwoofer und einem RCF ART 935-A Topteil in einer Club-Atmosphäre"
         class="showcase-image"
         loading="lazy">

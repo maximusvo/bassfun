@@ -318,6 +318,8 @@ section { padding: 90px 0; }
   border-radius: var(--radius);
   border: 1px solid var(--color-border);
   background: #0b0708;
+  object-fit: cover;
+  filter: grayscale(100%);
 }
 
 .showcase-grid .package-equipment { margin-bottom: 1.8em; }

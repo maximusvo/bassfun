@@ -4,10 +4,10 @@ title: Impressum
 permalink: /impressum/
 eyebrow: Rechtliches
 description: >-
-  Impressum von Bassfun gemäß § 5 DDG.
+  Impressum von Bassfun
 ---
 
-## Angaben gemäß § 5 DDG
+## Verantwortlich
 
 Maximilian Voigt<br>
 Am Dorfring 14<br>
@@ -20,12 +20,6 @@ E-Mail: {% include email-link.html %}
 ## Umsatzsteuer
 
 Gemäß § 19 UStG wird keine Umsatzsteuer berechnet (Kleinunternehmerregelung).
-
-## Verantwortlich für den Inhalt nach § 18 Abs. 2 MStV
-
-Maximilian Voigt<br>
-Am Dorfring 14<br>
-15518 Steinhöfel
 
 ## Streitschlichtung
 

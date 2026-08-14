@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Guter Sound von und für Brandenburg
+title: Guter Sound aus und für Brandenburg
 ---
 
 <section class="hero">

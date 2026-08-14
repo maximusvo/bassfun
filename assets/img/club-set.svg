@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="club-set-title">
+  <title id="club-set-title">PA-Stacks (2x Subwoofer, 2x Topteil) in Club-Atmosphäre</title>
+
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#1c1214"/>
+      <stop offset="55%" stop-color="#100b0c"/>
+      <stop offset="100%" stop-color="#08090a"/>
+    </radialGradient>
+
+    <linearGradient id="floor" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#050506"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+
+    <linearGradient id="cabinet" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2a2b2d"/>
+      <stop offset="45%" stop-color="#1a1b1c"/>
+      <stop offset="100%" stop-color="#0e0f10"/>
+    </linearGradient>
+
+    <linearGradient id="cabinetR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a2b2d"/>
+      <stop offset="45%" stop-color="#1a1b1c"/>
+      <stop offset="100%" stop-color="#0e0f10"/>
+    </linearGradient>
+
+    <radialGradient id="cone" cx="40%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#4a4c4f"/>
+      <stop offset="60%" stop-color="#232426"/>
+      <stop offset="100%" stop-color="#0c0d0e"/>
+    </radialGradient>
+
+    <radialGradient id="haze" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#d81e2c" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#d81e2c" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#d81e2c" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="beamWhite" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="beamRed" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f0313f" stop-opacity="0.22"/>
+      <stop offset="100%" stop-color="#f0313f" stop-opacity="0"/>
+    </linearGradient>
+
+    <filter id="soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+
+    <filter id="softSm" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="5"/>
+    </filter>
+  </defs>
+
+  <!-- background -->
+  <rect x="0" y="0" width="1600" height="900" fill="url(#bg)"/>
+
+  <!-- haze / stage glow -->
+  <ellipse cx="800" cy="480" rx="620" ry="360" fill="url(#haze)" filter="url(#soft)"/>
+
+  <!-- light beams -->
+  <g filter="url(#softSm)">
+    <polygon points="120,0 340,0 760,760 560,760" fill="url(#beamWhite)"/>
+    <polygon points="1480,0 1260,0 840,760 1040,760" fill="url(#beamWhite)"/>
+    <polygon points="500,0 620,0 840,780 660,780" fill="url(#beamRed)"/>
+    <polygon points="1100,0 980,0 760,780 940,780" fill="url(#beamRed)"/>
+  </g>
+
+  <!-- floor -->
+  <rect x="0" y="800" width="1600" height="100" fill="url(#floor)"/>
+  <g stroke="#3a1216" stroke-width="1" opacity="0.5">
+    <line x1="0" y1="820" x2="1600" y2="820"/>
+    <line x1="0" y1="845" x2="1600" y2="845"/>
+    <line x1="0" y1="872" x2="1600" y2="872"/>
+  </g>
+
+  <!-- crowd silhouettes -->
+  <g fill="#000000">
+    <ellipse cx="90"  cy="862" rx="26" ry="20"/>
+    <ellipse cx="150" cy="872" rx="30" ry="22"/>
+    <ellipse cx="215" cy="858" rx="24" ry="19"/>
+    <ellipse cx="270" cy="875" rx="28" ry="21"/>
+    <ellipse cx="330" cy="864" rx="25" ry="20"/>
+    <ellipse cx="1270" cy="864" rx="25" ry="20"/>
+    <ellipse cx="1330" cy="875" rx="28" ry="21"/>
+    <ellipse cx="1385" cy="858" rx="24" ry="19"/>
+    <ellipse cx="1450" cy="872" rx="30" ry="22"/>
+    <ellipse cx="1510" cy="862" rx="26" ry="20"/>
+  </g>
+  <g fill="none" stroke="#5c1015" stroke-width="1.5" opacity="0.6">
+    <path d="M64,858 A26,20 0 0 1 116,858"/>
+    <path d="M120,868 A30,22 0 0 1 180,868"/>
+    <path d="M191,854 A24,19 0 0 1 239,854"/>
+    <path d="M242,871 A28,21 0 0 1 298,871"/>
+    <path d="M305,860 A25,20 0 0 1 355,860"/>
+    <path d="M1245,860 A25,20 0 0 1 1295,860"/>
+    <path d="M1302,871 A28,21 0 0 1 1358,871"/>
+    <path d="M1361,854 A24,19 0 0 1 1409,854"/>
+    <path d="M1420,868 A30,22 0 0 1 1480,868"/>
+    <path d="M1484,858 A26,20 0 0 1 1536,858"/>
+  </g>
+
+  <!-- ============ LEFT STACK ============ -->
+  <g>
+    <!-- subwoofer -->
+    <rect x="300" y="628" width="230" height="172" rx="8" fill="url(#cabinet)" stroke="#000" stroke-width="2"/>
+    <rect x="300" y="628" width="230" height="172" rx="8" fill="none" stroke="#d81e2c" stroke-opacity="0.18" stroke-width="1"/>
+    <circle cx="415" cy="714" r="68" fill="url(#cone)" stroke="#050506" stroke-width="4"/>
+    <circle cx="415" cy="714" r="24" fill="#050506"/>
+    <circle cx="322" cy="650" r="4" fill="#000" opacity="0.6"/>
+    <circle cx="508" cy="650" r="4" fill="#000" opacity="0.6"/>
+    <circle cx="322" cy="778" r="4" fill="#000" opacity="0.6"/>
+    <circle cx="508" cy="778" r="4" fill="#000" opacity="0.6"/>
+    <rect x="322" y="792" width="186" height="6" rx="3" fill="#000" opacity="0.5"/>
+
+    <!-- top cabinet -->
+    <rect x="345" y="392" width="140" height="236" rx="8" fill="url(#cabinet)" stroke="#000" stroke-width="2"/>
+    <rect x="345" y="392" width="140" height="236" rx="8" fill="none" stroke="#d81e2c" stroke-opacity="0.18" stroke-width="1"/>
+    <path d="M385,414 h60 l-14,44 h-32 z" fill="#232426" stroke="#050506" stroke-width="2"/>
+    <circle cx="415" cy="540" r="46" fill="url(#cone)" stroke="#050506" stroke-width="4"/>
+    <circle cx="415" cy="540" r="16" fill="#050506"/>
+    <rect x="360" y="600" width="110" height="5" rx="2.5" fill="#000" opacity="0.5"/>
+  </g>
+
+  <!-- ============ RIGHT STACK (mirrored) ============ -->
+  <g>
+    <!-- subwoofer -->
+    <rect x="1070" y="628" width="230" height="172" rx="8" fill="url(#cabinetR)" stroke="#000" stroke-width="2"/>
+    <rect x="1070" y="628" width="230" height="172" rx="8" fill="none" stroke="#d81e2c" stroke-opacity="0.18" stroke-width="1"/>
+    <circle cx="1185" cy="714" r="68" fill="url(#cone)" stroke="#050506" stroke-width="4"/>
+    <circle cx="1185" cy="714" r="24" fill="#050506"/>
+    <circle cx="1092" cy="650" r="4" fill="#000" opacity="0.6"/>
+    <circle cx="1278" cy="650" r="4" fill="#000" opacity="0.6"/>
+    <circle cx="1092" cy="778" r="4" fill="#000" opacity="0.6"/>
+    <circle cx="1278" cy="778" r="4" fill="#000" opacity="0.6"/>
+    <rect x="1092" y="792" width="186" height="6" rx="3" fill="#000" opacity="0.5"/>
+
+    <!-- top cabinet -->
+    <rect x="1115" y="392" width="140" height="236" rx="8" fill="url(#cabinetR)" stroke="#000" stroke-width="2"/>
+    <rect x="1115" y="392" width="140" height="236" rx="8" fill="none" stroke="#d81e2c" stroke-opacity="0.18" stroke-width="1"/>
+    <path d="M1155,414 h60 l-14,44 h-32 z" fill="#232426" stroke="#050506" stroke-width="2"/>
+    <circle cx="1185" cy="540" r="46" fill="url(#cone)" stroke="#050506" stroke-width="4"/>
+    <circle cx="1185" cy="540" r="16" fill="#050506"/>
+    <rect x="1130" y="600" width="110" height="5" rx="2.5" fill="#000" opacity="0.5"/>
+  </g>
+
+  <!-- floor reflections -->
+  <g opacity="0.16">
+    <ellipse cx="415" cy="812" rx="150" ry="14" fill="#ffffff" filter="url(#softSm)"/>
+    <ellipse cx="1185" cy="812" rx="150" ry="14" fill="#ffffff" filter="url(#softSm)"/>
+  </g>
+</svg>

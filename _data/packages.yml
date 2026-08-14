@@ -1,0 +1,72 @@
+# Verleihpakete für Bassfun
+# Jedes Paket wird auf /leihen/ als Karte angezeigt und ist über
+# /anfrage/?paket=<id> direkt in der Anfrage vorausgewählt.
+#
+# Felder:
+#   id            eindeutige Kennung (wird in der URL verwendet, keine Leerzeichen/Umlaute)
+#   name          Anzeigename des Pakets
+#   tagline       kurzer Untertitel
+#   guests        Richtwert Personenanzahl
+#   price         Preis als Text (z.B. "ab 149 €")
+#   description   Fließtext-Beschreibung
+#   equipment     Liste der enthaltenen Komponenten
+#   highlight     true/false – hebt das Paket optisch hervor (z.B. "Beliebt")
+
+- id: starter
+  name: "Starter Set"
+  tagline: "Für kleine Feiern & private Partys"
+  guests: "bis 50 Gäste"
+  price: "ab 89 €/Tag"
+  description: >
+    Ein kompaktes PA-Set mit satten Bässen für Geburtstage, Gartenpartys
+    oder kleinere Feiern. Schnell aufgebaut, einfach bedient.
+  equipment:
+    - 2x RCF Aktivlautsprecher (Topteile)
+    - 1x Aktivsubwoofer
+    - Mischpult inkl. Kabel & Stative
+  highlight: false
+
+- id: club
+  name: "Club Set"
+  tagline: "Kraftvoller Sound für mittlere Events"
+  guests: "bis 150 Gäste"
+  price: "ab 179 €/Tag"
+  description: >
+    Unser meistgebuchtes Paket: klarer Sound und druckvoller Bass für
+    Hochzeiten, Vereinsfeiern und Clubabende.
+  equipment:
+    - 2x RCF Aktivlautsprecher (Topteile)
+    - 2x RCF Aktivsubwoofer
+    - Digitalmischpult inkl. Kabel & Stative
+    - 2x Funkmikrofon
+  highlight: true
+
+- id: festival
+  name: "Festival Set"
+  tagline: "Große Beschallung für große Bühnen"
+  guests: "bis 400 Gäste"
+  price: "ab 349 €/Tag"
+  description: >
+    Volle Beschallungsanlage für Open-Airs, größere Hochzeiten und
+    Firmenevents – inklusive Bühnenmonitoring und DJ-Equipment.
+  equipment:
+    - 4x RCF Aktivlautsprecher (Topteile)
+    - 4x RCF Aktivsubwoofer
+    - Digitalmischpult inkl. Kabel & Stative
+    - 2x Bühnenmonitor
+    - 2x Funkmikrofon
+  highlight: false
+
+- id: dj-service
+  name: "DJ-Service"
+  tagline: "Komplettpaket mit DJ"
+  guests: "individuell"
+  price: "auf Anfrage"
+  description: >
+    Du willst dich um nichts kümmern? Wir liefern die Anlage, bauen auf
+    und legen auf. Musikwünsche werden vorab abgestimmt.
+  equipment:
+    - PA-Anlage passend zur Gästezahl
+    - Auf- und Abbau durch uns
+    - DJ für den gesamten Abend
+  highlight: false

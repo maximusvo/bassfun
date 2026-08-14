@@ -1,0 +1,27 @@
+<header class="site-header">
+  <div class="wrap">
+    <a class="logo" href="{{ '/' | relative_url }}">
+      <span class="accent-bar" aria-hidden="true"></span>
+      Bassfun
+    </a>
+
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menü öffnen" aria-expanded="false">☰</button>
+
+    <nav class="site-nav" id="site-nav">
+      <ul>
+        <li><a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active"{% endif %}>Start</a></li>
+        <li><a href="{{ '/about/' | relative_url }}"{% if page.url == '/about/' %} class="active"{% endif %}>Über uns</a></li>
+        <li><a href="{{ '/leihen/' | relative_url }}"{% if page.url == '/leihen/' %} class="active"{% endif %}>Leihen</a></li>
+        <li><a href="{{ '/anfrage/' | relative_url }}" class="btn btn-primary">Jetzt anfragen</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<script>
+  document.getElementById('nav-toggle').addEventListener('click', function () {
+    var nav = document.getElementById('site-nav');
+    var isOpen = nav.classList.toggle('is-open');
+    this.setAttribute('aria-expanded', isOpen);
+  });
+</script>

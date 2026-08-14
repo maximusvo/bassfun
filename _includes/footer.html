@@ -1,0 +1,36 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <a class="logo" href="{{ '/' | relative_url }}">
+          <span class="accent-bar" aria-hidden="true"></span>
+          Bassfun
+        </a>
+        <p style="margin-top:1em; max-width:360px;">{{ site.description }}</p>
+      </div>
+
+      <div>
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="{{ '/' | relative_url }}">Start</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">Über uns</a></li>
+          <li><a href="{{ '/leihen/' | relative_url }}">Leihpakete</a></li>
+          <li><a href="{{ '/anfrage/' | relative_url }}">Anfrage</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4>Kontakt</h4>
+        <ul>
+          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
+          <li>Brandenburg</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; {{ site.time | date: '%Y' }} Bassfun</span>
+      <span>Lautsprecherverleih in Brandenburg</span>
+    </div>
+  </div>
+</footer>

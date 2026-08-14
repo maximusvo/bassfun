@@ -54,6 +54,11 @@ description: >-
         </select>
       </div>
 
+      <div class="form-row">
+        <label for="nachricht">Fragen &amp; Anmerkungen (optional)</label>
+        <textarea id="nachricht" name="nachricht" rows="4" placeholder="z.B. gewünschter Termin, besondere Wünsche oder Fragen"></textarea>
+      </div>
+
       <button type="submit" class="btn btn-primary">Anfrage per Mail senden</button>
 
       <p class="form-note">
@@ -95,10 +100,11 @@ description: >-
     var nachname = document.getElementById('nachname').value.trim();
     var telefon = document.getElementById('telefon').value.trim();
     var adresse = document.getElementById('adresse').value.trim();
+    var nachricht = document.getElementById('nachricht').value.trim();
     var paketName = paketSelect.options[paketSelect.selectedIndex].text;
 
     var subject = 'Anfrage Verleihpaket: ' + paketName;
-    var body = [
+    var bodyLines = [
       'Hallo Bassfun-Team,',
       '',
       'ich möchte folgendes Paket anfragen:',
@@ -107,10 +113,15 @@ description: >-
       'Nachname: ' + nachname,
       'Telefonnummer: ' + telefon,
       'Adresse: ' + adresse,
-      'Gebuchtes Paket: ' + paketName,
-      '',
-      'Viele Grüße'
-    ].join('\n');
+      'Gebuchtes Paket: ' + paketName
+    ];
+
+    if (nachricht) {
+      bodyLines.push('', 'Fragen & Anmerkungen:', nachricht);
+    }
+
+    bodyLines.push('', 'Viele Grüße');
+    var body = bodyLines.join('\n');
 
     var mailtoLink = 'mailto:' + encodeURIComponent(mailTo)
       + '?subject=' + encodeURIComponent(subject)

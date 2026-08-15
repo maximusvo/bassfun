@@ -1,0 +1,6 @@
+---
+# This file intentionally overrides the minima theme's assets/main.scss.
+# The site uses its own stylesheet (assets/css/style.css, see head.html)
+# and doesn't need minima's compiled CSS, which triggers Sass deprecation
+# warnings (e.g. lighten()) during build.
+---

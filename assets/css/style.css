@@ -206,7 +206,7 @@ a:hover { color: var(--color-accent-hover); }
   padding: 0;
 }
 
-.site-nav a {
+.site-nav a:not(.btn) {
   font-family: var(--font-display);
   font-weight: 600;
   text-transform: uppercase;
@@ -214,7 +214,7 @@ a:hover { color: var(--color-accent-hover); }
   font-size: 0.95rem;
   color: var(--color-text-dim);
 }
-.site-nav a:hover,
+.site-nav a:not(.btn):hover,
 .site-nav a.active { color: var(--color-text); }
 .site-nav a.active { border-bottom: 2px solid var(--color-accent); padding-bottom: 4px; }
 

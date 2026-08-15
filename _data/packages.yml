@@ -24,7 +24,7 @@
     Ein kompaktes PA-Set mit satten Bässen für Geburtstage, Gartenpartys
     oder kleinere Feiern. Schnell aufgebaut, einfach bedient.
   equipment:
-    - 2x RCF Aktivlautsprecher (Topteile)
+    - 2x Aktivlautsprecher (Topteile)<br>RCF ART 935-A
     - Mischpult inkl. Kabel & Stative
   highlight: false
 
@@ -38,23 +38,23 @@
     Unser meistgebuchtes Paket: klarer Sound und druckvoller Bass für
     Hochzeiten, Vereinsfeiern und Clubabende.
   equipment:
-    - 2x RCF Aktivlautsprecher (Topteile)
-    - 1x RCF Aktivsubwoofer
+    - 2x Aktivlautsprecher (Topteile)<br>RCF ART 935-A
+    - 1x Aktivsubwoofer<br>RCF SUB 8003-AS MK3
     - Mischpult inkl. Kabel & Stative
   highlight: true
 
 - id: festival
   name: "Festival Set"
-  tagline: "Große Beschallung für große Bühnen"
+  tagline: "Große Beschallung für kleine Bühnen"
   guests: "bis 400 Gäste"
   price: "ab 249 €/Tag"
-  price_from: 349
+  price_from: 249
   description: >
     Volle Beschallungsanlage für Open-Airs, größere Hochzeiten und
     Firmenevents – inklusive Bühnenmonitoring und DJ-Equipment.
   equipment:
-    - 2x RCF Aktivlautsprecher (Topteile)
-    - 2x RCF Aktivsubwoofer
+    - 2x Aktivlautsprecher (Topteile)<br>RCF ART 935-A
+    - 2x Aktivsubwoofer<br>RCF SUB 8003-AS MK3
     - Mischpult inkl. Kabel & Stative
   highlight: false
 

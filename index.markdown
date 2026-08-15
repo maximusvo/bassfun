@@ -48,14 +48,15 @@ title: Guter Sound aus und für Brandenburg
         <span class="eyebrow">Unser Equipment</span>
         <h2>Festivalsound, der ankommt</h2>
         <p>
-          Zwei Stacks aus je einem kraftvollen Subwoofer und einem klaren
-          Topteil sorgen für satten Bass und druckvolle Höhen bis in die
-          letzte Reihe – genau das richtige Setup für Open-Airs, große
+          Zwei Stacks aus je einem Subwoofer und 
+          Topteil sorgen für satten Bass und klare Höhen bis in die
+          letzte Reihe – genau das richtige Setup für Open-Airs, kleine
           Bühnen und Festivals.
         </p>
         <ul class="package-equipment">
           <li>2x RCF SUB 8003-AS MK3</li>
           <li>2x RCF ART 935-A</li>
+          <li>Zubehör</li>
         </ul>
         <a href="{{ '/anfrage/' | relative_url }}?paket=festival" class="btn btn-primary">Dieses Set anfragen</a>
       </div>
